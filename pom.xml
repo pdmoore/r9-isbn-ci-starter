@@ -14,7 +14,12 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>dev.emergent</groupId>
+            <artifactId>isbn-service</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/isbn-service-1.0.0.jar</systemPath>
+        </dependency>
     </dependencies>
-
-
 </project>
