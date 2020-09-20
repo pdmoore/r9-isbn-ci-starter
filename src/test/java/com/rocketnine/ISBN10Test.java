@@ -1,5 +1,6 @@
-package dev.emergent;
+package com.rocketnine;
 
+import dev.emergent.BookInfo;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
