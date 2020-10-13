@@ -1,9 +1,7 @@
 package com.rocketnine;
 
 import dev.emergent.BookInfo;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
 
 public class ISBN10Test {
 
@@ -18,6 +16,9 @@ public class ISBN10Test {
 
         // Assert
         assertEquals("ISBN must be 10 characters in length", actual.title);
+    }
+
+    private void assertEquals(String s, String title) {
     }
 
     @Test
