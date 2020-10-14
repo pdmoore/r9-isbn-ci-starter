@@ -1,7 +1,8 @@
 package com.rocketnine;
 
 import dev.emergent.BookInfo;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 
 public class ISBN10Test {
 
